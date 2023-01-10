@@ -1,0 +1,466 @@
+/* start navbar  */
+
+nav a {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 27px;
+}
+
+/* End navbar  */
+
+/* start header section  */
+
+.header {
+    background-image: url(../img/Path\ 6.png);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.header .img-header {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -15%;
+    z-index: -9999;
+}
+
+.dina {
+    margin: 25px 0px;
+    font-size: 40px;
+    color: #c53242;
+
+}
+
+.text-header h6 {
+    line-height: 2;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .header {
+        background-size: 100% 100%;
+    }
+
+    .header .img-header {
+        z-index: 22222222;
+        top: -1.5%;
+    }
+
+}
+
+/* End header section  */
+
+/* start media section  */
+
+.header-two {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.media {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    height: 200px;
+    width: 300px;
+    box-shadow: 5px 5px 5px 5px rgb(143, 133, 133);
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column img:hover {
+    opacity: 2;
+}
+
+/* End media section  */
+
+/* start card section  */
+
+.cards {
+    background: url(../img/Group\ 3.png), url(../img/beautiful-beach-view-koh-chang-island-tour-boat-tourists-seascape-trad-province-eastern-thailand-blue-sky-background_1150-10247.png);
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.gogo {
+    margin-top: 18%;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    color: blueviolet;
+    height: 30px;
+    width: 20px;
+    margin-top: 20px;
+
+}
+
+@media only screen and (max-width:992px) {
+    .gogo {
+        height: 180px;
+        width: 250px;
+        margin-left: 30%;
+        font-size: small;
+    }
+
+    #go {
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .cards {
+        background-size: 100% 100%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        background-repeat: no-repeat;
+        height: 200%;
+    }
+
+}
+
+/* End card section  */
+
+/* start filp cards section  */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #0cd34e;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+/* End filp cards section  */
+
+/* start Tours section  */
+.vc {
+    box-shadow: 5px 5px 5px 5px rgb(143, 133, 133);
+    height: 500px;
+}
+
+.pic {
+    background: url(../img/Path\ 19.png), url(../img/standing-empty-top-mountain-view-blank-space-cliff-edge-with-mountain-clouds-blue-sky_129475-103.png);
+    background-size: cover;
+    height: 300px;
+}
+
+.pic-2 {
+    background: url(../img/Path\ 20.png), url(../img/trail-dark-pine-forest_130291-2.png);
+    background-size: cover;
+    height: 300px;
+}
+
+.pic-3 {
+    background: url(../img/Path\ 21.png), url(../img/beautiful-landscape-mountains-tourists-travel-concept_184353-26.png);
+    background-size: cover;
+    height: 300px;
+}
+
+.bottom-left {
+    position: absolute;
+    top: 40%;
+    margin-left: 60%;
+    background-color: rgb(211, 119, 57);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-left3 {
+    position: absolute;
+    top: 45%;
+    margin-left: 60%;
+    background-color: rgb(211, 119, 57);
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-left2 {
+    position: absolute;
+    top: 40%;
+    margin-left: 60%;
+    background-color: rgb(165, 55, 238);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-left5 {
+    position: absolute;
+    top: 45%;
+    margin-left: 60%;
+    background-color: rgb(165, 55, 238);
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-left6 {
+    position: absolute;
+    top: 40%;
+    margin-left: 60%;
+    background-color: rgb(54, 207, 161);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-left7 {
+    position: absolute;
+    top: 45%;
+    margin-left: 60%;
+    background-color: rgb(54, 207, 161);
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.pw {
+    text-align: center;
+}
+
+@media only screen and (max-width:992px) {
+    .pic {
+        height: 350px;
+    }
+
+    .pic-2 {
+        height: 350px;
+    }
+
+    .pic-3 {
+        height: 350px;
+    }
+
+    .vc {
+        height: 600px;
+    }
+}
+
+/* End Tours section  */
+
+/* start week section  */
+
+.vv {
+    box-shadow: 3px 3px 3px 3px rgb(143, 133, 133);
+    margin-bottom: 10px;
+
+}
+
+.img1 {
+    background: url(../img/asian-male-students-carrying-travel-backpack-wearing-hat-holding-map-travel-learn_42128-390.jpg);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.img2 {
+    background: url(../img/standing-empty-top-mountain-view-blank-space-cliff-edge-with-mountain-clouds-blue-sky_129475-103.png);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.read {
+    margin-left: 40%;
+
+}
+
+/* End week section  */
+
+/* start form section  */
+.great {
+    background-color: rgb(165, 55, 238);
+    height: 350px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card-img {
+    height: 300px;
+    width: 800px;
+    border: 1px solid rgb(245, 242, 242);
+}
+
+.booking {
+    position: relative;
+    top: 50%;
+    left: 15%;
+    margin-top: 30px;
+
+}
+
+.op {
+    background-color: rgba(250, 246, 246, 0.37);
+    border: 1px solirgb(236, 231, 231)ck;
+    /* opacity: 0.4; */
+    width: 60%;
+    height: 100%;
+}
+
+.op :hover {
+    opacity: 6.0;
+}
+
+.pp {
+    font-weight: bold;
+    color: #000000;
+    z-index: 444444;
+}
+
+@media only screen and (max-width:992px) {
+    .card-img {
+        width: 400px;
+
+    }
+
+    .op {
+        width: 90%;
+    }
+
+}
+
+/* End form section  */
+
+/* start footer section  */
+
+.footer {
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+.footer h2 {
+    font-family: cursive;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.footer h5 {
+    font-family: cursive;
+    color: rgb(236, 234, 233);
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    flex-direction: row;
+
+}
+
+.a {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    color: #a332c5;
+}
+
+@media only screen and (max-width:992px) {
+    #about {
+        margin-top: 55px;
+    }
+
+}
+
+/* End footer section  */
+
+/* start end section  */
+
+.end {
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.end h6 {
+    font-size: 20px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+
+}
+
+@media only screen and (max-width:992px) {
+    .end h6 {
+        margin-top: 20px;
+
+    }
+
+    .end {
+        height: 40px;
+    }
+}
+
+/* End end section  */
